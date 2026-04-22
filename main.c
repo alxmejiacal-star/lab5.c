@@ -1,12 +1,4 @@
-/*
- * lab5_C.c
- * Prelab : Servo 1 -> Timer1 HW PWM -> PB1 (D9)  <- Pot A0
- * Lab    : Servo 2 -> Timer2 SW PWM -> PB2 (D10) <- Pot A1
- * Postlab: LED     -> Timer0 SW PWM -> PD5 (D5)  <- Pot A2
- *
- * ADC por interrupcion, 3 canales alternados
- * Filtro de histeresis para evitar temblor en servos
- */
+
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include "pwm.h"
